@@ -5,6 +5,8 @@ import contactactivityextension from "../assets/contactactivityextensio.png";
 import pushnotification from "../assets/pushnotification.png";
 import walkthrough from "../assets/walkthrough.png";
 import loggerapp from "../assets/loggerapp.png";
+import eventlibrary from "../assets/eventlibrary.png";
+
 
 export const apps = [
   {
@@ -35,6 +37,15 @@ export const apps = [
     ],
     image: walkthrough,
     tag: "Walkthrough",
+  },
+  {
+    id: "event-library",
+    name: "event-library",
+    description:
+      "Create Event Library to manage and maintain all the events in one place with ease of access and documentation.",
+    href: "https://eventlibrarybuilder.netlify.app/",
+    image: eventlibrary,
+    tag: "onboarding"
   },
   {
     id: "log-capturer",
@@ -92,6 +103,6 @@ export const apps = [
 
       "Export or share the log file when finished.",
     ],
-  },
+  }
   
 ];
