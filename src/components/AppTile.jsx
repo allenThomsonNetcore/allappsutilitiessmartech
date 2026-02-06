@@ -32,6 +32,16 @@ export default function AppTile({ app }) {
           {app.tag ? <span className="pill">{app.tag}</span> : null}
         </div>
         <p>{app.description}</p>
+        {app.tutorialSteps?.length ? (
+          <details className="tile-details" onClick={stopPropagation}>
+            <summary className="tile-summary">Tutorial steps</summary>
+            <ol>
+              {app.tutorialSteps.map((step, index) => (
+                <li key={`${app.id}-step-${index}`}>{step}</li>
+              ))}
+            </ol>
+          </details>
+        ) : null}
       </div>
       <div className="tile-actions">
         <a
@@ -41,7 +51,7 @@ export default function AppTile({ app }) {
           rel="noreferrer"
           onClick={stopPropagation}
         >
-          Open app →
+          Open app 
         </a>
         {app.github ? (
           <a
@@ -54,6 +64,18 @@ export default function AppTile({ app }) {
             GitHub
           </a>
         ) : null}
+        {app.links?.map((link) => (
+          <a
+            key={link.href}
+            className="tile-link ghost"
+            href={link.href}
+            target="_blank"
+            rel="noreferrer"
+            onClick={stopPropagation}
+          >
+            {link.label}
+          </a>
+        ))}
       </div>
     </article>
   );

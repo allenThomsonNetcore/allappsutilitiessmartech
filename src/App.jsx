@@ -15,9 +15,9 @@ function App() {
           </div>
 
           <div className="hero">
-            <h1>Launch the tools that connect everything.</h1>
+            <h1>Integration Utilities</h1>
             <p>
-              A curated workspace for the integration apps we build. Each tile
+             Each tile
               below opens a live utility with a quick visual preview.
             </p>
             <div className="hero-meta">
