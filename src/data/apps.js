@@ -92,7 +92,7 @@ export const apps = [
     name: "Android Logger App (Local)",
     description:
       "Android App to capture logs locally on android device without connecting to a computer",
-    href: "https://drive.google.com/file/d/1wBojDNxRgTiv_PZwC8ASsKbhL4qkI8QL/view?usp=drive_link",
+    href: "https://drive.google.com/drive/folders/1qDihHPQ1eOZH4-iXuS30G5nbmK28anMy?usp=sharing",
     image: loggerapp,
     tag: "Integration",
     tutorialSteps: [
