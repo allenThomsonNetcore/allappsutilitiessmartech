@@ -14,7 +14,7 @@ export const apps = [
     name: "Event Validation",
     description:
       "Validate Events and the Payloads with the event sheet",
-    href: "https://validation-script-android-1.onrender.com/",
+    href: "https://validation-script-android.onrender.com/",
     image: eventvalidation,
     tag: "Integration",
      github: "https://github.com/allenThomsonNetcore/validation_script_android"
