@@ -17,7 +17,13 @@ export const apps = [
     href: "https://validation-script-android.onrender.com/",
     image: eventvalidation,
     tag: "Integration",
-     github: "https://github.com/allenThomsonNetcore/validation_script_android"
+    github: "https://github.com/allenThomsonNetcore/validation_script_android",
+    links: [
+      {
+        label: "beta_version",
+        href: "https://netcoreeventvalidator.netlify.app/",
+      },
+    ],
   },
   {
     id: "android-ios-walkthrough",
