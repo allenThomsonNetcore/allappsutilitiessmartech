@@ -84,7 +84,7 @@ export const apps = [
   },
   {
     id: "push-notfication-api-android",
-    name: "Trigger Push Notification API for Android",
+    name: "FCM Push Notification API Trigger for Android Smartech SDK",
     description:
       "Push Notification API trigger for Android with support for custom payload",
     href: "https://validation-script-android-1.onrender.com/push-notification",
