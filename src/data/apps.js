@@ -64,9 +64,9 @@ export const apps = [
   },
   {
     id: "smartech-sdk-integrator",
-    name: "Smartech SDK Integrator(Android - Flutter, React Native)",
+    name: "Smartech SDK Integrator(Android, Flutter, React Native)",
     description:
-      "Smartech SDK Integrator for Android Flutter and React Native. Native Android coming soon.",
+      "Smartech SDK Integrator for Android Flutter and React Native and Native Android.",
     href: "https://drive.google.com/drive/folders/1k9JbfwWc8-QBaYAiiHnzAgelmeOZRSJg?usp=drive_link",
     image: integratorandroid,
     tag: "Integration",
