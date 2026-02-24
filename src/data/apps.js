@@ -51,7 +51,8 @@ export const apps = [
       "Create Event Library to manage and maintain all the events in one place with ease of access and documentation.",
     href: "https://eventlibrarybuilder.netlify.app/",
     image: eventlibrary,
-    tag: "onboarding"
+    tag: "onboarding",
+    github:"https://github.com/allenThomsonNetcore/eventlibrarybuilder/tree/main"
   },
   {
     id: "log-capturer",
@@ -61,6 +62,7 @@ export const apps = [
     href: "https://drive.google.com/drive/folders/1kgwDyYvCNc0r0cWQbjvybAG9hNIuj0_3?usp=sharing",
     image: logcapturer,
     tag: "Integration",
+    github:"https://github.com/Allono07/log_capturer_netcore_complete/tree/windowsOs"
   },
   {
     id: "smartech-sdk-integrator",
