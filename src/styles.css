@@ -78,6 +78,26 @@ body {
   color: rgba(255, 255, 255, 0.72);
 }
 
+.demo-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-block;
+}
+
+.demo-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(252, 94, 2, 0.3);
+}
+
 .hero {
   display: grid;
   gap: 12px;
@@ -308,6 +328,13 @@ body {
   .header-inner::after {
     left: 18px;
     right: 18px;
+  }
+
+  .demo-button {
+    top: 18px;
+    right: 18px;
+    padding: 8px 16px;
+    font-size: 0.85rem;
   }
 
   .hero-meta {
