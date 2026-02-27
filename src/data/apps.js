@@ -30,15 +30,15 @@ export const apps = [
     name: "Walkthrough for Android and iOS SDK Integration",
     description:
       "Walkthrough for Android and iOS SDK Integration with code snippets and video guides.",
-      href:"https://laxmii12.github.io/IntegrationWalkthrough_Android_CE/",
+      href:"https://laxmii12.github.io/IntegrationWalkthrough_Android_Latest/",
   links: [
       {
         label: "Android",
-        href: "https://laxmii12.github.io/IntegrationWalkthrough_Android_CE/",
+        href: "https://laxmii12.github.io/IntegrationWalkthrough_Android_Latest/",
       },
       {
         label: "iOS",
-        href: "https://laxmii12.github.io/IntegrationWalkthrough_iOS_CE/",
+        href: "https://laxmii12.github.io/IntegrationWalkthrough_iOS_Latest/",
       },
     ],
     image: walkthrough,
